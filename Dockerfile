@@ -1,5 +1,5 @@
-FROM google/nodejs
-MAINTAINER Doug Smith <info@laboratoryb.org>
+FROM node:latest
+MAINTAINER Andreas Krüger
 
 RUN npm install -g kamailio-etcd-dispatcher
 
